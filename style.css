@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins-Regular.ttf);
+}
+*{
+    font-family: 'Poppins';
+    font-size: 30px;
+    /* font-weight: 100; */
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 90%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+.inputfield{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    text-align: right;
+    caret-color: transparent;
+    border: none;
+}
+.inputfield:focus{
+    outline: none;
+
+}
+.inputfield::placeholder{
+    color: white;
+
+}
+.main{
+    /* height: 80vh; */
+    padding-top: 120px;
+    padding-bottom: 40px;
+    background-color: black;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding: 0px 15px 0px 15px; */
+    border-radius: 50px;
+}
+.btndiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: #333333;
+    color: white;
+}
+.mainbtndiv{
+     display: flex;
+     height: 60%;
+     width: 90%;
+     flex-direction: column;
+     /* justify-content: center; */
+     /* padding-bottom: 40px; */
+     /* background-color: brown; */
+}
+.btn0{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.yellowbtn{
+    background-color: #ffa500;
+    color: white;
+}
+.topbtns{
+    background-color: #cccccc;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
