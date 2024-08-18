@@ -5,7 +5,6 @@
 *{
     font-family: 'Poppins';
     font-size: 30px;
-    /* font-weight: 100; */
 }
 body{
     height: 100vh;
@@ -39,7 +38,6 @@ body{
 
 }
 .main{
-    /* height: 80vh; */
     padding-top: 120px;
     padding-bottom: 40px;
     background-color: black;
@@ -48,7 +46,6 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    /* padding: 0px 15px 0px 15px; */
     border-radius: 50px;
 }
 .btndiv{
@@ -65,14 +62,18 @@ button{
     background-color: #333333;
     color: white;
 }
+button:hover{
+    background-color:gray ;
+}
+button:active{
+    background-color: gainsboro;
+    color: black;
+}
 .mainbtndiv{
      display: flex;
      height: 60%;
      width: 90%;
      flex-direction: column;
-     /* justify-content: center; */
-     /* padding-bottom: 40px; */
-     /* background-color: brown; */
 }
 .btn0{
     width: 40%;
@@ -83,6 +84,12 @@ button{
 .yellowbtn{
     background-color: #ffa500;
     color: white;
+}
+.yellowbtn:hover{
+   background-color: hsl(39, 100%, 66%); 
+}
+.yellowbtn:active{
+    background-color: hsl(39, 100%, 76%);
 }
 .topbtns{
     background-color: #cccccc;

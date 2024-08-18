@@ -9,37 +9,37 @@
 <body>
     <div class="main width-sm">
         <div class="input">
-            <input type="text" placeholder="0" class="inputfield">
+            <input type="text" placeholder="0"  class="inputfield" id="input">
         </div>
         <div class="mainbtndiv">
             <div class="btndiv">
-                <button class="topbtns">AC</button>
-                <button class="topbtns">DEL</button>
-                <button class="topbtns">%</button>
-                <button class="yellowbtn">÷</button>
+                <button onclick="clearInput()" class="topbtns">AC</button>
+                <button onclick="deleteLastVal()" class="topbtns">DEL</button>
+                <button onclick="getNumber(this)" class="topbtns">%</button>
+                <button onclick="getNumber(this)" class="yellowbtn">/</button>
             </div>
             <div class="btndiv">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button class="yellowbtn">x</button>
+                <button onclick="getNumber(this)">7</button>
+                <button onclick="getNumber(this)">8</button>
+                <button onclick="getNumber(this)">9</button>
+                <button onclick="getNumber(this)" class="yellowbtn">*</button>
             </div>
             <div class="btndiv">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button class="yellowbtn">-</button>
+                <button onclick="getNumber(this)">4</button>
+                <button onclick="getNumber(this)">5</button>
+                <button onclick="getNumber(this)">6</button>
+                <button onclick="getNumber(this)"class="yellowbtn">-</button>
             </div>
             <div class="btndiv">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button class="yellowbtn">+</button>
+                <button onclick="getNumber(this)">1</button>
+                <button onclick="getNumber(this)">2</button>
+                <button onclick="getNumber(this)">3</button>
+                <button onclick="getNumber(this)" class="yellowbtn">+</button>
             </div>
             <div class="btndiv">
-                <button class="btn0">0</button>
-                <button>.</button>
-                <button class="yellowbtn">=</button>
+                <button onclick="getNumber(this)" class="btn0">0</button>
+                <button onclick="getNumber(this)">.</button>
+                <button onclick="calculations()" class="yellowbtn">=</button>
             </div>
         </div>
         </div>
